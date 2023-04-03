@@ -1,0 +1,152 @@
+
+html{
+    background-color: black;
+}
+
+.MH{
+    color:black;
+    font-size: 2em;
+    padding: 10px 0 0 20px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+img.Ghost{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width : 30%;
+    margin-top: 60px;
+}
+
+nav{
+    text-align: right;
+    padding: 10px 7px 10px 0;
+}
+
+nav a{
+    color:black;
+    font-size: 1em;
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: none;
+    padding-right: 15px;
+}
+
+a:hover{
+    color:seashell;
+}
+
+header{
+    height: 10em ;
+    border: 1px solid rgb(111, 248, 57) ;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    background-color: rgb(111, 248, 57);
+}
+
+h3{
+    font-family: 'Press Start 2P', cursive;
+    color:rgb(111, 243, 58);
+    text-align: center;
+    font-size: 40px;
+}
+
+h5{
+    font-family: 'Press Start 2P', cursive;
+    color:rgb(111, 243, 58);
+    text-align: center;
+    font-size: 25px;
+}
+
+.addi{
+    border: 1px  rgb(111, 243, 58);
+    border-style:dashed;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+
+p.addidis{
+    font-family: 'Press Start 2P', cursive;
+    color:rgb(111, 243, 58);
+    text-align: left;
+    padding: 20px;
+    line-height: 1.5em;
+}
+
+h4{
+    font-family: 'Press Start 2P', cursive;
+    color:rgb(111, 243, 58);
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+hr.unl{
+    border: 1px dashed rgb(111, 243, 58);
+    width:95%;
+}
+
+hr.sp{
+    border: 1px solid black;
+    width:95%;
+}
+
+#reflist{
+    font-family: 'Press Start 2P', cursive;
+    color:rgb(111, 243, 58);
+}
+
+li{
+    padding: 5px;
+}
+
+footer{
+    background-color:rgb(111, 243, 58);
+    border:1px solid rgb(111, 243, 58);
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+h6{
+    font-family: 'Press Start 2P', cursive;
+    color:black;
+    text-align: center;
+    padding-top:0;
+    font-size:20px;
+}
+
+a.SM{
+    text-decoration: none;
+    color:black;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    padding: 0 20px 10px 20px;
+    
+}
+
+.handles{
+    text-align: center;
+}
+
+div.handles a:hover{
+    color:seashell;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.box2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.box1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+}

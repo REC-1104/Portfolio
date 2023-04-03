@@ -1,0 +1,41 @@
+html{
+    background-color: black;;
+}
+
+.MH{
+    color:black;
+    font-size: 2em;
+    padding: 10px 0 0 20px;
+    font-family: 'Press Start 2P', cursive;
+    
+}
+
+header{
+    height: 9em rgb(111, 248, 57);
+    border: 1px solid  ;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    background-color: rgb(111, 248, 57);
+}
+
+a:hover{
+    color:seashell;
+}
+
+nav a{
+    color:black;
+    font-size: 1em;
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: none;
+}
+
+nav{
+    text-align: right;
+    padding: 10px 7px 10px 0;
+}
+
+p{
+    font-family: 'Press Start 2P', cursive;
+    padding-left: 20px;
+    color:rgb(111, 248, 57);
+}
