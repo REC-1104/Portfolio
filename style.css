@@ -12,10 +12,20 @@ html{
 
 img.Ghost{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     width : 30%;
     margin-top: 60px;
+    animation : oscillator .85s linear 1s infinite alternate ;
+}
+
+@keyframes oscillator {
+    0%{
+        margin-left: 0%;
+        margin-top: 60px;
+    }
+    100%{
+        margin-left: 70%;
+        margin-top: 60px;
+    }
 }
 
 nav{
@@ -29,10 +39,12 @@ nav a{
     font-family: 'Press Start 2P', cursive;
     text-decoration: none;
     padding-right: 15px;
+    transition: color 0.5s ease, font-size 0.5s ease;
 }
 
 a:hover{
-    color:seashell;
+    color: white;
+    font-size: 1.09em;
 }
 
 header{
@@ -64,6 +76,12 @@ h5{
     padding: 10px;
 }
 
+li a{
+    color : rgb(111, 243, 58);
+    line-height: 1.5em;
+    text-decoration: none;
+    transition: color .5s ease , font-size .5s ease;
+}
 
 p.addidis{
     font-family: 'Press Start 2P', cursive;
@@ -119,7 +137,7 @@ a.SM{
     font-family: 'Press Start 2P', cursive;
     text-align: center;
     padding: 0 20px 10px 20px;
-    
+    transition: color 0.5s, font-size 0.5s ;
 }
 
 .handles{
@@ -128,12 +146,16 @@ a.SM{
 
 div.handles a:hover{
     color:seashell;
+    font-size: 1.09em;
 }
 
+
+@media screen and (min-width:540px) {
+    
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
+    grid-gap: 30px;
 }
 
 .box2{
@@ -148,5 +170,5 @@ div.handles a:hover{
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 2;
-    
+}
 }

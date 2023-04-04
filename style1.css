@@ -19,7 +19,8 @@ header{
 }
 
 a:hover{
-    color:seashell;
+    color: white;
+    font-size: 1.09em;
 }
 
 nav a{
@@ -27,6 +28,7 @@ nav a{
     font-size: 1em;
     font-family: 'Press Start 2P', cursive;
     text-decoration: none;
+    transition: color 0.5s ease , font-size 0.5s ease ;
 }
 
 nav{
