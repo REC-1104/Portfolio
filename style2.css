@@ -10,6 +10,12 @@ html{
     
 }
 
+hr.sp{
+    border: 1px solid black;
+    width:95%;
+}
+
+
 header{
     height: 9em rgb(111, 248, 57);
     border: 1px solid  ;
@@ -20,7 +26,7 @@ header{
 
 a:hover{
     color:seashell;
-    font-size: 1.09em;
+    
 }
 
 nav a{

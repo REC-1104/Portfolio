@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
 html{
     background-color: rgb(111, 248, 57);
+    transition: all linear 2s;
 }
 
 .MH{
@@ -8,6 +11,11 @@ html{
     padding: 10px 0 0 20px;
     font-family: 'Press Start 2P', cursive;
     
+}
+
+hr.sp{
+    border: 1px solid rgb(111, 248, 57);
+    width:95%;
 }
 
 header{
@@ -20,10 +28,9 @@ header{
 
 a:hover{
     color: white;
-    font-size: 1.09em;
 }
 
-nav a{
+ a{
     color:rgb(111, 248, 57);
     font-size: 1em;
     font-family: 'Press Start 2P', cursive;
@@ -39,4 +46,36 @@ nav{
 p{
     font-family: 'Press Start 2P', cursive;
     padding-left: 20px;
+}
+
+.box{
+    
+    width: 99.5%;
+    height: 200px;
+    border:5px dashed black;
+    transition: all ease .5s;
+}
+
+.box:hover{
+    background-color: black;
+    color: azure;
+}
+
+#logo{
+    padding: 50px 0 50px 10px;
+  float: left;
+  z-index: 1;
+}
+
+h3#project_name{
+   top:18px;
+   left: 70px;
+   font-size: 50px;
+   padding-left: 125px;
+   color:#225310 ;
+   background-clip:content-box;
+   display: block;
+}
+.box:hover #project_name{
+  color: azure;
 }
