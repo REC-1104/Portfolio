@@ -3,6 +3,7 @@
 html{
     background-color: rgb(111, 248, 57);
     transition: all linear 2s;
+    height: 100vh;
 }
 
 .MH{
