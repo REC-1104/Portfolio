@@ -3,7 +3,6 @@
 html{
     background-color: rgb(111, 248, 57);
     transition: all linear 2s;
-    height: 100vh;
 }
 
 .MH{
@@ -90,18 +89,18 @@ section{
 
 @media screen and (max-width:540px) {
     #logo{
-        width: 50px;
-        height: 50px;
-        padding: 20px 0 10px 20px;
+        width: 0;
+        height: 0;
     }
     h3.project_name{
         
         font-size: 30px;
         margin-top: 0;
+        padding-left: 0;
     }
     .box{
         height: 100px;
         width:98%;
-        
+        text-align: left;
     }
 }

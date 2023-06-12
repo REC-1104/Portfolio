@@ -75,6 +75,10 @@ h5{
     padding: 10px;
 }
 
+.addi:hover{
+    animation: rando 2s linear infinite;
+}
+
 li a{
     color : rgb(111, 243, 58);
     line-height: 1.5em;
