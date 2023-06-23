@@ -17,6 +17,12 @@ img.Ghost{
     animation : oscillator 1s linear 1s infinite alternate ;
 }
 
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+}
+
 @keyframes oscillator {
     0%{
         margin-left: 0;
@@ -77,6 +83,11 @@ h5{
 
 .addi:hover{
     animation: rando 2s linear infinite;
+}
+
+#fp{
+    height: 500px;
+    width: 100%;
 }
 
 li a{
