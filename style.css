@@ -3,6 +3,10 @@ html{
     background-color:black;
 }
 
+a{
+    text-decoration: none;
+}
+
 .MH{
     color:black;
     font-size: 2em;
